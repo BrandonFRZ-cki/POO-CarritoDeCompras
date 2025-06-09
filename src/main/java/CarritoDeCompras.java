@@ -16,7 +16,6 @@ public class CarritoDeCompras {
         }
         return total;
     }
-
     @Override
     public String toString() {
         return "CarritoDeCompras:\n" +

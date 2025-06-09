@@ -1,5 +1,6 @@
 public class Principal {
     public static void main(String[] args) {
+        //Creacion de Productos
         Producto p1 = new Producto("Producto Uno","CP-001",1.50);
         Producto p2 = new Producto("Producto Dos","CP-002",2.50);
         Producto p3 = new Producto("Producto Tres","CP-003",3.50);
@@ -18,7 +19,6 @@ public class Principal {
         carritoDeCompras.agregarProducto(p7,7);
 
         System.out.println(carritoDeCompras.toString());
-        System.out.println("Precio Total \n"+carritoDeCompras.calcularTotal());
-
+        System.out.println("Precio Total: "+carritoDeCompras.calcularTotal());
     }
 }
