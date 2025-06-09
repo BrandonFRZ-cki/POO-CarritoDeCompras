@@ -1,3 +1,5 @@
+package ec.edu.ups.poo.modelo;
+
 public class ItemCarrito {
     private Producto producto;
     private int cantidad;

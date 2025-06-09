@@ -1,3 +1,5 @@
+package ec.edu.ups.poo.modelo;
+
 public class Producto {
     private String nombre;
     private String codigo;
